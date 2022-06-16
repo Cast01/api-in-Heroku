@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
-const port = 3001;
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
-  console.log("Servidor iniciado na porta 3001");
+  console.log("Servidor iniciado.");
 });
