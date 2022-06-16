@@ -4,7 +4,8 @@
   "description": "API de videos para ser consumida neste projeto.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch src src/server.js"
+    "dev": "nodemon --watch src src/server.js",
+    "start": "node src/server.js"
   },
   "author": "Gabriel Castilho Floriano",
   "license": "MIT",
